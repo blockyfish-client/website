@@ -3,14 +3,14 @@ import { Navbar } from "./components/navbar";
 
 export default function Home() {
 	return (
-		<main className="bg-gray-900 text-white min-h-screen w-[calc(100vw-1rem)] flex flex-col items-center select-none">
+		<main className="bg-gray-900 text-white min-h-screen w-[calc(100vw-1rem)] flex flex-col items-center select-none pb-8 px-4">
 			<div className="flex flex-col items-center justify-center w-full h-[calc(100vh-6rem)]">
 				<p className="text-7xl [line-height:1.25] bg-gradient-to-tr from-teal-400 to-blue-300 font-extrabold bg-clip-text text-transparent">Blockyfish</p>
 				<p className="text-center">Deeeep.io's best client mod</p>
 			</div>
 			<Navbar />
 
-			<div className="flex flex-col items-center max-w-5xl w-full min-h-screen mt-16 gap-4">
+			<div className="flex flex-col items-center max-w-5xl w-full mt-16 gap-4">
 				<p className="text-4xl text-transparent bg-gradient-to-r from-emerald-200 to-emerald-300 bg-clip-text font-medium">Features</p>
 				<div className="flex flex-wrap gap-4 w-fit justify-center">
 					{[
