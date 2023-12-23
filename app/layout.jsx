@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
 				className={quicksand.className}
 				style={{
 					overflowX: "hidden",
-					overflowY: "auto"
+					overflowY: "scroll"
 				}}
 			>
 				{children}
