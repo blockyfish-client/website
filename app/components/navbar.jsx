@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function Navbar() {
 	return (
-		<div className="w-screen h-24 flex justify-center sticky top-0">
+		<div className="w-screen h-24 flex justify-center sticky top-0 select-none">
 			<div className="bg-[#35425569] backdrop-blur-md max-w-5xl w-full flex justify-between items-center m-4 p-4 rounded-xl">
 				<div className="flex gap-1">
 					<Link
