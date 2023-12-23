@@ -4,7 +4,7 @@ import { Navbar } from "../components/navbar";
 
 export default function Faq() {
 	return (
-		<main className="bg-gray-900 text-white min-h-screen w-[calc(100vw-1rem)] flex flex-col items-center pb-8 px-4">
+		<main className="bg-gray-900 text-white min-h-screen w-screen flex flex-col items-center pb-8 px-4">
 			<Navbar />
 			<div className="flex flex-col items-center max-w-5xl w-full mt-8 gap-4">
 				<p className="text-4xl text-transparent text-center bg-gradient-to-r from-pink-200 to-pink-300 bg-clip-text font-medium">Frequenty Asked Questions</p>
