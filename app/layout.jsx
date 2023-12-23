@@ -14,8 +14,7 @@ export default function RootLayout({ children }) {
 			<body
 				className={quicksand.className}
 				style={{
-					overflowX: "hidden",
-					overflowY: "scroll"
+					overflowX: "hidden"
 				}}
 			>
 				{children}
