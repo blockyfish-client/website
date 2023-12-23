@@ -10,7 +10,7 @@ export default function Faq() {
 				<p className="text-4xl text-transparent text-center bg-gradient-to-r from-pink-200 to-pink-300 bg-clip-text font-medium">Frequenty Asked Questions</p>
 				{[
 					{
-						q: "Will I get banned from the game for using BLockyfish client?",
+						q: "Will I get banned from the game for using Blockyfish client?",
 						a: "Yes! Deeeep.io currently does not detect whether you are using Blockyfish or not."
 					},
 					{
