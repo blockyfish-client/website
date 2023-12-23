@@ -1,0 +1,3 @@
+[submodule "public/plugins"]
+	path = public/plugins
+	url = https://github.com/blockyfish-client/plugins
