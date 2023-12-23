@@ -21,15 +21,16 @@ export function Navbar() {
 				</div>
 				<div className="flex gap-1">
 					{[
-						{ href: "/faq", text: "FAQs" },
-						{ href: "/", text: "Docs" },
-						{ href: "/", text: "GitHub" }
+						{ href: "/faq", text: "FAQs", target: "_self" },
+						{ href: "/docs", text: "Docs" },
+						{ href: "https://github.com/blockyfish-client/desktop-client", text: "GitHub" }
 					].map((e, i) => (
 						<Link
 							key={i}
 							href={e.href}
 							className="hover:bg-[#fff1] transition-colors px-3 py-2 rounded-md"
 							draggable={false}
+							target={e.target || "_blank"}
 						>
 							{e.text}
 						</Link>
