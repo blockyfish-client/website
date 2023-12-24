@@ -1,4 +1,5 @@
 import { Navbar } from "./components/navbar";
+import Twemoji from "./components/twemoji";
 
 export default function Home() {
 	return (
@@ -34,7 +35,9 @@ export default function Home() {
 							key={i}
 							className="w-64 h-36 bg-gray-800 rounded-md p-4 border border-[#fff1] hover:border-[#fff4] transition-colors"
 						>
-							<p className="text-xl font-medium text-emerald-200">{e.title}</p>
+							<p className="text-xl font-medium text-emerald-200">
+								<Twemoji text={e.title} />
+							</p>
 							<p className="mt-3">{e.text}</p>
 						</div>
 					))}
