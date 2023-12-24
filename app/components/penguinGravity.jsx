@@ -4,7 +4,7 @@ export default function PenguinGravity() {
 	return (
 		<div
 			id="penguinGravity"
-			className="absolute top-0 left-0 z-0 bg-blend-luminosity [filter:brightness(0.6)_contrast(0.6)_grayscale(1)_opacity(0.2)]"
+			className="absolute top-0 left-0 z-0 overflow-hidden bg-blend-luminosity [filter:brightness(0.6)_contrast(0.6)_grayscale(1)_opacity(0.2)]"
 			style={{
 				marginLeft: "-16px",
 				width: "calc(100% + 32px)",
