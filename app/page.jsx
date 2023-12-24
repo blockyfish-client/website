@@ -1,6 +1,7 @@
 import PenguinGravity from "./components/penguinGravity";
 import { Navbar } from "./components/navbar";
 import Twemoji from "./components/twemoji";
+import Link from "next/link";
 
 export default function Home() {
 	return (
@@ -46,7 +47,23 @@ export default function Home() {
 				</div>
 
 				<p className="text-4xl text-transparent bg-gradient-to-r from-orange-200 to-orange-300 bg-clip-text font-medium mt-24">Download</p>
-				<p>Coming soon</p>
+				<Link
+					className="bg-blue-500 hover:bg-blue-600 border-b-4 border-blue-600 hover:border-blue-700 transition-colors text-white py-3 px-4 rounded-2xl shadow-lg flex gap-3 items-center justify-center"
+					href={"https://github.com/blockyfish-client/desktop-client/releases/download/v3.0.0/Blockyfish_Client_Setup_Windows_3.0.0.exe"}
+				>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="16"
+						fill="currentColor"
+						class="bi bi-windows"
+						viewBox="0 0 16 16"
+					>
+						<path d="M6.555 1.375 0 2.237v5.45h6.555zM0 13.795l6.555.933V8.313H0v5.482zm7.278-5.4.026 6.378L16 16V8.395H7.278zM16 0 7.33 1.244v6.414H16z" />
+					</svg>
+					Download for Windows
+				</Link>
+				<p>Currently, only Windows is supported. MacOS, Linux, and Android support is coming soon!</p>
 
 				<p className="text-4xl text-transparent bg-gradient-to-r from-cyan-200 to-cyan-300 bg-clip-text font-medium mt-24">Contributors</p>
 				<div className="flex flex-wrap gap-4 w-fit justify-center">
