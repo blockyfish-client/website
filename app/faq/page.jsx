@@ -11,7 +11,7 @@ export default function Faq() {
 				{[
 					{
 						q: "Will I get banned from the game for using Blockyfish client?",
-						a: "Yes! Deeeep.io currently does not detect whether you are using Blockyfish or not."
+						a: "Nope! Deeeep.io currently does not detect whether you are using Blockyfish or not."
 					},
 					{
 						q: "How do I install Blockyfish client?",
