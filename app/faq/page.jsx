@@ -28,7 +28,10 @@ export default function Faq() {
 				].map((e, i) => {
 					const [open, setOpen] = useState(false);
 					return (
-						<div className="w-full bg-gray-800 rounded-md text-pink-200 overflow-hidden">
+						<div
+							key={i}
+							className="w-full bg-gray-800 rounded-md text-pink-200 overflow-hidden"
+						>
 							<button
 								className="flex justify-between items-center p-4 w-full"
 								onClick={() => setOpen(!open)}
