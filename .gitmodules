@@ -1,3 +1,6 @@
 [submodule "public/plugins"]
 	path = public/plugins
 	url = https://github.com/blockyfish-client/plugins
+[submodule "docs"]
+	path = docs
+	url = https://github.com/blockyfish-client/docs

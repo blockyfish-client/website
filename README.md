@@ -8,6 +8,11 @@ Website made with Next.js
 
 1. Node.js
 
+### Building docs
+
+1. `npm i retypeapp -g`
+2. `retype build`
+
 ### Running a development server
 
 1. Clone this repository
