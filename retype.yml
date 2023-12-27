@@ -1,12 +1,21 @@
 input: docs
 output: public/retype
-url: https://blockyfish.netlify.app/docs/
+cname: false
+url: https://blockyfish.netlify.app/docs
 branding:
   title: Blockyfish
   label: Docs
   logo: ../icon.png
 links:
-- text: Getting Started
-  link: https://retype.com/guides/getting-started/
+- text: Blockyfish official website
+  link: https://blockyfish.netlify.app
+  icon: globe
+- text: GitHub
+  link: https://github.com/blockyfish-client
+  icon: mark-github
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
+markdown:
+  lineBreaks: soft
+generator:
+  paths: relative
