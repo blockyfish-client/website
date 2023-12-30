@@ -25,7 +25,7 @@ export function DownloadScrollButton() {
 						setRipple(true);
 						setTimeout(() => {
 							setRipple(false);
-						}, 1000);
+						}, 550);
 					}, 750);
 				}}
 			>
