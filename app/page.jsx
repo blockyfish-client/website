@@ -2,6 +2,7 @@ import PenguinGravity from "./components/penguinGravity";
 import { Navbar } from "./components/navbar";
 import Twemoji from "./components/twemoji";
 import Link from "next/link";
+import { DownloadScrollButton } from "./clientside";
 
 export default function Home() {
 	return (
@@ -9,13 +10,15 @@ export default function Home() {
 			<div className="flex flex-col items-center justify-center w-full h-[calc(100dvh-6rem)] relative select-none">
 				<PenguinGravity />
 				<p className="text-7xl [line-height:1.25] bg-gradient-to-tr from-teal-400 to-blue-300 font-extrabold bg-clip-text text-transparent z-10">Blockyfish</p>
-				<p className="text-center z-10">Deeeep.io's best client mod</p>
+				<p className="text-center z-10 mb-4">Deeeep.io's best client mod</p>
+
+				<DownloadScrollButton />
 			</div>
 			<Navbar />
 
 			<div className="flex flex-col items-center max-w-5xl w-full mt-16 gap-4">
 				<p className="text-4xl text-transparent bg-gradient-to-r from-emerald-200 to-emerald-300 bg-clip-text font-medium">Features</p>
-				<div className="flex flex-wrap gap-4 w-fit justify-center">
+				<div className="flex flex-wrap gap-4 w-fit justify-center mb-24">
 					{[
 						{
 							title: "🚀 Easy installation",
@@ -46,24 +49,28 @@ export default function Home() {
 					))}
 				</div>
 
-				<p className="text-4xl text-transparent bg-gradient-to-r from-orange-200 to-orange-300 bg-clip-text font-medium mt-24">Download</p>
-				<Link
-					className="bg-blue-500 hover:bg-blue-600 border-b-4 border-blue-600 hover:border-blue-700 transition-colors text-white py-3 px-4 rounded-2xl shadow-lg flex gap-3 items-center justify-center"
-					href={"https://github.com/blockyfish-client/desktop-client/releases/download/v3.0.0/Blockyfish_Client_Setup_Windows_3.0.0.exe"}
+				<div
+					id="download"
+					className="flex flex-col items-center gap-4"
 				>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="16"
-						height="16"
-						fill="currentColor"
-						class="bi bi-windows"
-						viewBox="0 0 16 16"
+					<p className="text-4xl text-transparent bg-gradient-to-r from-orange-200 to-orange-300 bg-clip-text font-medium">Download</p>
+					<Link
+						className="bg-blue-500 hover:bg-blue-600 border-b-4 border-blue-600 hover:border-blue-700 transition-colors text-white py-3 px-4 rounded-2xl shadow-lg flex gap-3 items-center justify-center"
+						href={"https://github.com/blockyfish-client/desktop-client/releases/download/v3.0.0/Blockyfish_Client_Setup_Windows_3.0.0.exe"}
 					>
-						<path d="M6.555 1.375 0 2.237v5.45h6.555zM0 13.795l6.555.933V8.313H0v5.482zm7.278-5.4.026 6.378L16 16V8.395H7.278zM16 0 7.33 1.244v6.414H16z" />
-					</svg>
-					Download for Windows
-				</Link>
-				<p>Currently, only Windows is supported. MacOS, Linux, and Android support is coming soon!</p>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="16"
+							fill="currentColor"
+							viewBox="0 0 16 16"
+						>
+							<path d="M6.555 1.375 0 2.237v5.45h6.555zM0 13.795l6.555.933V8.313H0v5.482zm7.278-5.4.026 6.378L16 16V8.395H7.278zM16 0 7.33 1.244v6.414H16z" />
+						</svg>
+						Download for Windows
+					</Link>
+					<p>Currently, only Windows is supported. MacOS, Linux, and Android support is coming soon!</p>
+				</div>
 
 				<p className="text-4xl text-transparent bg-gradient-to-r from-cyan-200 to-cyan-300 bg-clip-text font-medium mt-24">Contributors</p>
 				<div className="flex flex-wrap gap-4 w-fit justify-center">
