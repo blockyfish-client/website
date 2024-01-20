@@ -1,4 +1,11 @@
-export default function handler(req, res) {
+import NextCors from "nextjs-cors";
+
+export default async function handler(req, res) {
+	await NextCors(req, res, {
+		methods: ["GET"],
+		origin: "*",
+		optionsSuccessStatus: 200
+	});
 	res.status(200).json([
 		{ id: 0, name: "fish", asset_count: 1, active: true, beta: false, created_at: "2021-04-18T21:33:24.000Z", updated_at: "2021-04-18T21:33:24.000Z" },
 		{ id: 1, name: "crab", asset_count: 1, active: true, beta: false, created_at: "2021-04-18T21:33:24.000Z", updated_at: "2021-04-18T21:33:24.000Z" },
