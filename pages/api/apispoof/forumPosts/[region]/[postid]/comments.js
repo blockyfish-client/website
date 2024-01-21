@@ -6,7 +6,7 @@ export default async function handler(req, res) {
 		origin: "*",
 		optionsSuccessStatus: 200
 	});
-	res.status(200).json([
+	res.status(200).json(
 		Array.from(new Array(69), (e, i) => ({
 			id: i,
 			post_id: req.query.postid,
@@ -45,5 +45,5 @@ export default async function handler(req, res) {
 				forumRoles: []
 			}
 		}))
-	]);
+	);
 }
