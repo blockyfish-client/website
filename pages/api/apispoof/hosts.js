@@ -7,7 +7,7 @@ export default async function handler(req, res) {
 		optionsSuccessStatus: 200
 	});
 	res.status(200).json({
-		time: Date.now(),
+		time: 1705785430769,
 		hosts: [
 			{
 				id: "2Gt7LZ",
@@ -18,7 +18,7 @@ export default async function handler(req, res) {
 				custom: false,
 				is_private: false,
 				map_id: 11953,
-				users: 118,
+				users: 35,
 				ready: true,
 				room_status: 2,
 				version: 51,
@@ -30,7 +30,7 @@ export default async function handler(req, res) {
 				min_tier: 1,
 				locked: false,
 				created_at: "2023-12-29T22:23:59.000Z",
-				updated_at: "2024-01-08T16:52:10.000Z",
+				updated_at: "2024-01-20T21:16:50.000Z",
 				server: { region: "EU", latitude: 52, longitude: 4, ip: "95.179.189.71" },
 				map: { string_id: "star_rain_ffa", user: { id: 389999, username: "emi_", verified: true } }
 			},
@@ -43,7 +43,7 @@ export default async function handler(req, res) {
 				custom: false,
 				is_private: false,
 				map_id: 11944,
-				users: 33,
+				users: 1,
 				ready: true,
 				room_status: 2,
 				version: 51,
@@ -55,7 +55,7 @@ export default async function handler(req, res) {
 				min_tier: 1,
 				locked: false,
 				created_at: "2023-12-29T22:16:51.000Z",
-				updated_at: "2024-01-08T16:52:49.000Z",
+				updated_at: "2024-01-20T21:17:09.000Z",
 				server: { region: "AS", latitude: 35, longitude: 139, ip: "107.191.61.105" },
 				map: { string_id: "pangolin_tffa_v1", user: { id: 589683, username: "Pangolin", verified: false } }
 			},
@@ -118,7 +118,7 @@ export default async function handler(req, res) {
 				custom: false,
 				is_private: false,
 				map_id: 11944,
-				users: 87,
+				users: 31,
 				ready: true,
 				room_status: 2,
 				version: 51,
@@ -130,7 +130,7 @@ export default async function handler(req, res) {
 				min_tier: 1,
 				locked: false,
 				created_at: "2023-12-29T22:16:51.000Z",
-				updated_at: "2024-01-08T16:52:50.000Z",
+				updated_at: "2024-01-20T21:16:35.000Z",
 				server: { region: "NAE", latitude: 42, longitude: -88, ip: "216.128.147.87" },
 				map: { string_id: "pangolin_tffa_v1", user: { id: 589683, username: "Pangolin", verified: false } }
 			},
@@ -143,7 +143,7 @@ export default async function handler(req, res) {
 				custom: false,
 				is_private: false,
 				map_id: 11953,
-				users: 62,
+				users: 33,
 				ready: true,
 				room_status: 2,
 				version: 51,
@@ -155,7 +155,7 @@ export default async function handler(req, res) {
 				min_tier: 1,
 				locked: false,
 				created_at: "2023-12-29T22:24:02.000Z",
-				updated_at: "2024-01-08T16:52:44.000Z",
+				updated_at: "2024-01-20T21:16:59.000Z",
 				server: { region: "NAE", latitude: 47, longitude: -122, ip: "66.42.68.170" },
 				map: { string_id: "star_rain_ffa", user: { id: 389999, username: "emi_", verified: true } }
 			}
