@@ -7,12 +7,12 @@ export default async function handler(req, res) {
 		optionsSuccessStatus: 200
 	});
 	res.status(200).json([
-		{
-			id: 1,
+		Array.from(new Array(69), (e, i) => ({
+			id: i,
 			post_id: req.query.postid,
 			parent_id: null,
 			user_id: 5,
-			text: "You should put no sexual harassment or grooming",
+			text: "Hi, welcome to the forums!",
 			likes: 10,
 			created_at: "2024-01-02T01:25:28.000Z",
 			updated_at: "2024-01-02T01:25:28.000Z",
@@ -44,6 +44,6 @@ export default async function handler(req, res) {
 				forum_ban_by: null,
 				forumRoles: []
 			}
-		}
+		}))
 	]);
 }
