@@ -7,6 +7,23 @@ export default async function handler(req, res) {
 		optionsSuccessStatus: 200
 	});
 	res.status(200).send(
-		"The following spoofed Deeeep.io API responses are available:\n" + ["/regions", "/hosts?servers=1", "/maps/11953/packs", "/animals", "/auth/me", "/servers/l", "/auth/timezone"].join("\n")
+		"The following spoofed Deeeep.io API responses are available:\n" +
+			[
+				"/animals",
+				"/auth/me",
+				"/auth/timezone",
+				"/forumPosts/[region]/[postid]",
+				"/forumPosts/[region]/[postid]/comments",
+				"/forumPosts/[region]",
+				"/hosts",
+				"/maps/[id]/packs",
+				"/playHistories/u/[userid]",
+				"/regions",
+				"/servers/l",
+				"/socialNetworks/u/[userid]",
+				"/users/[userid]",
+				"/users/u/[username]",
+				"/userStats/[userid]"
+			].join("\n")
 	);
 }
