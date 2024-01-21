@@ -16,14 +16,17 @@ export default async function handler(req, res) {
 				"/forumPosts/[region]/[postid]/comments",
 				"/forumPosts/[region]",
 				"/hosts",
+				"/leaderboard",
 				"/maps/[id]/packs",
 				"/playHistories/u/[userid]",
 				"/regions",
 				"/servers/l",
 				"/socialNetworks/u/[userid]",
+				"/twitch",
 				"/users/[userid]",
 				"/users/u/[username]",
-				"/userStats/[userid]"
+				"/userStats/[userid]",
+				"/videos"
 			].join("\n")
 	);
 }
