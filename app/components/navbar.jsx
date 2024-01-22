@@ -23,7 +23,8 @@ export function Navbar() {
 					{[
 						{ href: "/faq", text: "FAQs", target: "_self" },
 						{ href: "/docs", text: "Docs", target: "_self" },
-						{ href: "https://github.com/blockyfish-client/desktop-client", text: "GitHub" }
+						{ href: "https://github.com/blockyfish-client/desktop-client", text: "GitHub" },
+						{ href: "https://discord.gg/vQnrUVxAvT", text: "Discord" }
 					].map((e, i) => (
 						<Link
 							key={i}
