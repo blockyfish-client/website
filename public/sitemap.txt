@@ -1,0 +1,8 @@
+https://blockyfish.netlify.app/
+https://blockyfish.netlify.app/faq
+https://blockyfish.netlify.app/docs/
+https://blockyfish.netlify.app/docs/tutorial/prerequisites/
+https://blockyfish.netlify.app/docs/tutorial/testing-and-debugging/
+https://blockyfish.netlify.app/docs/tutorial/plugin-structure/
+https://blockyfish.netlify.app/docs/tutorial/writing-code/
+https://blockyfish.netlify.app/docs/tutorial/best-practices/
