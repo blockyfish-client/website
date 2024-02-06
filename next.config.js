@@ -9,6 +9,10 @@ const nextConfig = {
 			{
 				source: "/docs/resources/:slug*",
 				destination: "/retype/resources/:slug*"
+			},
+			{
+				source: "/resources/:slug*",
+				destination: "/docs/resources/:slug*"
 			}
 		];
 	}
