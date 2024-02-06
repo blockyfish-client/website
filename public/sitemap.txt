@@ -1,8 +1,8 @@
-https://blockyfish.netlify.app/
-https://blockyfish.netlify.app/faq
-https://blockyfish.netlify.app/docs/
-https://blockyfish.netlify.app/docs/tutorial/prerequisites/
-https://blockyfish.netlify.app/docs/tutorial/testing-and-debugging/
-https://blockyfish.netlify.app/docs/tutorial/plugin-structure/
-https://blockyfish.netlify.app/docs/tutorial/writing-code/
-https://blockyfish.netlify.app/docs/tutorial/best-practices/
+https://blockyfish.vercel.app/
+https://blockyfish.vercel.app/faq
+https://blockyfish.vercel.app/docs/
+https://blockyfish.vercel.app/docs/tutorial/prerequisites/
+https://blockyfish.vercel.app/docs/tutorial/testing-and-debugging/
+https://blockyfish.vercel.app/docs/tutorial/plugin-structure/
+https://blockyfish.vercel.app/docs/tutorial/writing-code/
+https://blockyfish.vercel.app/docs/tutorial/best-practices/

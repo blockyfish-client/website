@@ -22,4 +22,4 @@ Website made with Next.js
 
 ## 🚀 Deploying
 
-Deploy with Vercel or Netlify
+Deploy with Vercel

@@ -1,14 +1,14 @@
 input: docs
 output: public/docs
 cname: false
-url: https://blockyfish.netlify.app/docs
+url: https://blockyfish.vercel.app/docs
 branding:
   title: Blockyfish
   label: Docs
   logo: ../icon.png
 links:
 - text: Blockyfish official website
-  link: https://blockyfish.netlify.app
+  link: https://blockyfish.vercel.app
   icon: globe
 - text: GitHub
   link: https://github.com/blockyfish-client

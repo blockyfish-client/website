@@ -23,7 +23,7 @@ export default function Faq() {
 					},
 					{
 						q: "What is the official website for Blockyfish client?",
-						a: "This website (blockyfish.netlify.app) is the ONLY official website for Blockyfish client. Other websites which claim to be the official website may contain malicious content."
+						a: "This website (blockyfish.vercel.app) is the ONLY official website for Blockyfish client. Other websites which claim to be the official website may contain malicious content."
 					}
 				].map((e, i) => {
 					const [open, setOpen] = useState(false);

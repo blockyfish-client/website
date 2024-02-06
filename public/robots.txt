@@ -1,1 +1,1 @@
-Sitemap: https://blockyfish.netlify.app/sitemap.xml
+Sitemap: https://blockyfish.vercel.app/sitemap.xml

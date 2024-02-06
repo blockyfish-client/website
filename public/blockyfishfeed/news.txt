@@ -30,7 +30,7 @@
 <p>
 	Here's a link to the
 	<a
-		href="https://blockyfish.netlify.app"
+		href="https://blockyfish.vercel.app"
 		target="_blank"
 		>Blockyfish Client</a
 	>
