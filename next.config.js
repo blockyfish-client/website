@@ -7,7 +7,7 @@ const nextConfig = {
 				destination: "/retype/:slug*/index.html"
 			},
 			{
-				source: "/resources/:slug*",
+				source: "/docs/resources/:slug*",
 				destination: "/retype/resources/:slug*"
 			}
 		];
