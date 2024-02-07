@@ -12,7 +12,7 @@ const nextConfig = {
 			},
 			{
 				source: "/resources/:slug*",
-				destination: "/retype/resources/:slug*"
+				destination: "/docs/resources/:slug*"
 			}
 		];
 	}
