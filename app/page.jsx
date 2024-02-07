@@ -56,7 +56,7 @@ export default function Home() {
 					<p className="text-4xl text-transparent bg-gradient-to-r from-orange-200 to-orange-300 bg-clip-text font-medium">Download</p>
 					<Link
 						className="bg-blue-500 hover:bg-blue-600 border-b-4 border-blue-600 hover:border-blue-700 transition-colors text-white py-3 px-4 rounded-2xl shadow-lg flex gap-3 items-center justify-center"
-						href={"https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.1/Blockyfish_Client_Setup_Windows_3.1.1.exe"}
+						href={"https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.2/Blockyfish_Client_Setup_Windows_3.1.2.exe"}
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
