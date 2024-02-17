@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
 				<title>Blockyfish Client</title>
 				<meta
 					name="description"
-					content="Deeeep.io's best client mod"
+					content="Deeeep.io's best client mod for hacks, cheats, and other neat quality-of-life features"
 				/>
 
 				<meta
@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
 				/>
 				<meta
 					property="og:description"
-					content="Deeeep.io's best client mod"
+					content="Deeeep.io's best client mod for hacks, cheats, and other neat quality-of-life features"
 				/>
 
 				<meta
@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
 				/>
 				<meta
 					name="twitter:description"
-					content="Deeeep.io's best client mod"
+					content="Deeeep.io's best client mod for hacks, cheats, and other neat quality-of-life features"
 				/>
 				<meta
 					name="twitter:image"
