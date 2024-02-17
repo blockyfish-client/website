@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
 
 				<meta
 					property="og:image"
-					content="https://blockyfish.vercel.app/icon.png"
+					content="https://blockyfish.vercel.app/icon64.png"
 				/>
 
 				<meta
@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
 				/>
 				<meta
 					name="twitter:image"
-					content="https://blockyfish.vercel.app/icon.png"
+					content="https://blockyfish.vercel.app/icon64.png"
 				/>
 			</head>
 			<body
