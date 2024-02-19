@@ -7,7 +7,7 @@ import { DownloadScrollButton } from "./clientside";
 export default function Home() {
 	return (
 		<main className="bg-gray-900 text-white min-h-screen w-screen flex flex-col items-center pb-8 px-4">
-			<div className="flex flex-col items-center justify-center w-full h-[calc(100dvh-6rem)] relative select-none">
+			<div className="flex flex-col items-center justify-center w-full cover-height relative select-none">
 				<PenguinGravity />
 				<h1 className="text-7xl [line-height:1.25] bg-gradient-to-tr from-teal-400 to-blue-300 font-extrabold bg-clip-text text-transparent z-10">Blockyfish</h1>
 				<h2 className="text-center z-10 mb-4">Deeeep.io's best client mod</h2>

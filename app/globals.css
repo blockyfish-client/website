@@ -50,3 +50,8 @@
 	margin-left: -50vw;
 	position: absolute;
 }
+
+.cover-height {
+	height: calc(100dvh - 6rem);
+	height: calc(100vh - 6rem);
+}
