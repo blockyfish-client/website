@@ -15,7 +15,7 @@ export default function Faq() {
 					},
 					{
 						q: "How do I install Blockyfish client?",
-						a: "After you have downloaded the client, simply run the installer.\nThe client currently only works on Windows."
+						a: "After you have downloaded the client, simply run the installer.\nThe client is currently supported on Windows, macOS, and Linux."
 					},
 					{
 						q: "Can I get Blockyfish client on my phone?",
@@ -24,6 +24,10 @@ export default function Faq() {
 					{
 						q: "What is the official website for Blockyfish client?",
 						a: "This website (blockyfish.vercel.app) is the ONLY official website for Blockyfish client. Other websites which claim to be the official website may contain malicious content."
+					},
+					{
+						q: "Why can't I open the installer on MacOS? (App can't be opened because it is from an unidentified developer.)",
+						a: `This is because of MacOS's Gatekeeper feature. It prevents unsigned applications from being installed by default. Signing the application would cost around $100USD per year.\nTo get around the Gatekeeper, hold the control key and click on the app. Then click "Open", then click "Open" again when it gives you a warning. Your preference will be saved and MacOS will let you open the app normally from now on.`
 					}
 				].map((e, i) => {
 					const [open, setOpen] = useState(false);
