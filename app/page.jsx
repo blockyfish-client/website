@@ -70,7 +70,7 @@ export default function Home() {
 						Download for Windows (x64)
 					</Link>
 					<Link
-						className="bg-neutral-700 hover:bg-neutral-800 border-b-4 border-neutral-800 hover:border-neutral-900 transition-colors text-white py-3 px-4 rounded-2xl shadow-lg flex gap-3 items-center justify-center"
+						className="bg-blue-500 hover:bg-blue-600 border-b-4 border-blue-600 hover:border-blue-700 transition-colors text-white py-3 px-4 rounded-2xl shadow-lg flex gap-3 items-center justify-center"
 						href={"https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.2/blockyfish-client-mac-3.1.2.dmg"}
 					>
 						<svg
@@ -86,7 +86,7 @@ export default function Home() {
 						Download for MacOS (Universal)
 					</Link>
 					<Link
-						className="bg-orange-500 hover:bg-orange-600 border-b-4 border-orange-600 hover:border-orange-700 transition-colors text-white py-3 px-4 rounded-2xl shadow-lg flex gap-3 items-center justify-center"
+						className="bg-blue-500 hover:bg-blue-600 border-b-4 border-blue-600 hover:border-blue-700 transition-colors text-white py-3 px-4 rounded-2xl shadow-lg flex gap-3 items-center justify-center"
 						href={"https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.2/blockyfish-client-linux-3.1.2.tar.xz"}
 					>
 						<svg
