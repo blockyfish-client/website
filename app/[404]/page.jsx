@@ -15,7 +15,9 @@ export default function Error404() {
 					draggable={false}
 					className="text-[150px]"
 				/>
-				<p className="text-xl font-bold mt-4">Oops! We lost a penguin.</p>
+				<p className="text-xl font-bold mt-4">
+					Oops! We lost a penguin.
+				</p>
 				<p>We couldn't find the page you were looking for.</p>
 				<Link
 					href={"/"}

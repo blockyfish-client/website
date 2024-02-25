@@ -8,8 +8,8 @@ const Twemoji = ({ text }) => (
 		dangerouslySetInnerHTML={{
 			__html: twemoji.parse(text, {
 				folder: "svg",
-				ext: ".svg"
-			})
+				ext: ".svg",
+			}),
 		}}
 	/>
 );

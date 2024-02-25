@@ -8,7 +8,7 @@ export default function PenguinGravity() {
 			style={{
 				marginLeft: "-16px",
 				width: "calc(100% + 32px)",
-				height: "calc(100% + 16px)"
+				height: "calc(100% + 16px)",
 			}}
 		>
 			{Array(6)
@@ -18,12 +18,17 @@ export default function PenguinGravity() {
 					return (
 						<img
 							key={i}
-							src={isBaby ? "/animals/babypenguin.png" : "/animals/penguin.png"}
+							src={
+								isBaby
+									? "/animals/babypenguin.png"
+									: "/animals/penguin.png"
+							}
 							width={isBaby ? 48 : 64}
 							style={{
 								left: Math.random() * 100 + "%",
 								top: Math.random() * 100 + "%",
-								transform: "rotate(" + Math.random() * 360 + "deg)"
+								transform:
+									"rotate(" + Math.random() * 360 + "deg)",
 							}}
 							className="box2d absolute"
 						/>

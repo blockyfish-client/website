@@ -14,7 +14,7 @@ export function DownloadScrollButton() {
 					const d = document.getElementById("download");
 					d.scrollIntoView({
 						behavior: "smooth",
-						block: "center"
+						block: "center",
 					});
 					setTimeout(() => {
 						var b = d.getBoundingClientRect();
@@ -46,10 +46,7 @@ export function DownloadScrollButton() {
 					id="ripple-container"
 					className="fixed w-screen h-screen top-0 left-0 overflow-hidden"
 				>
-					<Ripple
-						left={rippleX}
-						top={rippleY}
-					/>
+					<Ripple left={rippleX} top={rippleY} />
 				</div>
 			)}
 		</>
@@ -62,7 +59,7 @@ function Ripple({ top, left }) {
 			className="ripple-anim w-[100vw] h-[100vw] rounded-full select-none pointer-events-none"
 			style={{
 				top: top || 0,
-				left: left || 0
+				left: left || 0,
 			}}
 		></div>
 	);
