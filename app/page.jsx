@@ -60,7 +60,7 @@ export default function Home() {
           <Link
             className="bg-blue-500 hover:bg-blue-600 border-b-4 border-blue-600 hover:border-blue-700 transition-colors text-white py-3 px-4 rounded-2xl shadow-lg flex gap-3 items-center justify-center"
             href={
-              "https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.2/blockyfish-client-win-3.1.2.exe"
+              "https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.3/blockyfish-client-win-3.1.3.exe"
             }
           >
             <svg
@@ -77,7 +77,7 @@ export default function Home() {
           <Link
             className="bg-blue-500 hover:bg-blue-600 border-b-4 border-blue-600 hover:border-blue-700 transition-colors text-white py-3 px-4 rounded-2xl shadow-lg flex gap-3 items-center justify-center"
             href={
-              "https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.2/blockyfish-client-mac-3.1.2.dmg"
+              "https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.3/blockyfish-client-mac-3.1.3.dmg"
             }
           >
             <svg
@@ -95,7 +95,7 @@ export default function Home() {
           <Link
             className="bg-blue-500 hover:bg-blue-600 border-b-4 border-blue-600 hover:border-blue-700 transition-colors text-white py-3 px-4 rounded-2xl shadow-lg flex gap-3 items-center justify-center"
             href={
-              "https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.2/blockyfish-client-linux-3.1.2.tar.xz"
+              "https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.3/blockyfish-client-linux-3.1.3.tar.xz"
             }
           >
             <svg
