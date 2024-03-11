@@ -6,13 +6,13 @@ import { DownloadScrollButton } from "./clientside";
 
 export default function Home() {
 	return (
-		<main className="bg-gray-900 text-white min-h-screen w-screen flex flex-col items-center pb-8 px-4">
-			<div className="flex flex-col items-center justify-center w-full cover-height relative select-none">
+		<main className="flex flex-col items-center bg-gray-900 px-4 pb-8 w-screen min-h-screen text-white">
+			<div className="relative flex flex-col justify-center items-center w-full select-none cover-height">
 				<PenguinGravity />
-				<h1 className="text-7xl [line-height:1.25] bg-gradient-to-tr from-teal-400 to-blue-300 font-extrabold bg-clip-text text-transparent z-10">
+				<h1 className="text-7xl [line-height:1.25] z-10 bg-clip-text bg-gradient-to-tr from-teal-400 to-blue-300 font-extrabold text-transparent">
 					Blockyfish
 				</h1>
-				<h2 className="text-center z-10 mb-4">
+				<h2 className="z-10 mb-4 text-center">
 					Deeeep.io's best client mod
 				</h2>
 
@@ -20,11 +20,11 @@ export default function Home() {
 			</div>
 			<Navbar />
 
-			<div className="flex flex-col items-center max-w-5xl w-full mt-16 gap-4">
-				<p className="text-4xl text-transparent bg-gradient-to-r from-emerald-200 to-emerald-300 bg-clip-text font-medium">
+			<div className="flex flex-col items-center gap-4 mt-16 w-full max-w-5xl">
+				<p className="bg-clip-text bg-gradient-to-r from-emerald-200 to-emerald-300 font-medium text-4xl text-transparent">
 					Features
 				</p>
-				<div className="flex flex-wrap gap-4 w-fit justify-center mb-24">
+				<div className="flex flex-wrap justify-center gap-4 mb-24 w-fit">
 					{[
 						{
 							title: "🚀 Easy installation",
@@ -45,9 +45,9 @@ export default function Home() {
 					].map((e, i) => (
 						<div
 							key={i}
-							className="w-64 h-36 bg-gray-800 rounded-md p-4 border border-[#fff1] hover:border-[#fff4] transition-colors"
+							className="border-[#fff1] hover:border-[#fff4] bg-gray-800 p-4 border rounded-md w-64 h-36 transition-colors"
 						>
-							<p className="text-xl font-medium text-emerald-200">
+							<p className="font-medium text-emerald-200 text-xl">
 								<Twemoji text={e.title} />
 							</p>
 							<p className="mt-3">{e.text}</p>
@@ -56,13 +56,13 @@ export default function Home() {
 				</div>
 
 				<div id="download" className="flex flex-col items-center gap-4">
-					<p className="text-4xl text-transparent bg-gradient-to-r from-orange-200 to-orange-300 bg-clip-text font-medium">
+					<p className="bg-clip-text bg-gradient-to-r from-orange-200 to-orange-300 font-medium text-4xl text-transparent">
 						Download
 					</p>
 					<Link
-						className="bg-blue-500 hover:bg-blue-600 border-b-4 border-blue-600 hover:border-blue-700 transition-colors text-white py-3 px-4 rounded-2xl shadow-lg flex gap-3 items-center justify-center"
+						className="flex justify-center items-center gap-3 bg-blue-500 hover:bg-blue-600 shadow-lg px-4 py-3 border-b-4 border-blue-600 hover:border-blue-700 rounded-2xl text-white transition-colors"
 						href={
-							"https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.3/blockyfish-client-win-3.1.3.exe"
+							"https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.4/blockyfish-client-win-3.1.4.exe"
 						}
 					>
 						<svg
@@ -77,9 +77,9 @@ export default function Home() {
 						Download for Windows (x64)
 					</Link>
 					<Link
-						className="bg-blue-500 hover:bg-blue-600 border-b-4 border-blue-600 hover:border-blue-700 transition-colors text-white py-3 px-4 rounded-2xl shadow-lg flex gap-3 items-center justify-center"
+						className="flex justify-center items-center gap-3 bg-blue-500 hover:bg-blue-600 shadow-lg px-4 py-3 border-b-4 border-blue-600 hover:border-blue-700 rounded-2xl text-white transition-colors"
 						href={
-							"https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.3/blockyfish-client-mac-3.1.3.dmg"
+							"https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.4/blockyfish-client-mac-3.1.4.dmg"
 						}
 					>
 						<svg
@@ -95,9 +95,9 @@ export default function Home() {
 						Download for MacOS (Universal)
 					</Link>
 					<Link
-						className="bg-blue-500 hover:bg-blue-600 border-b-4 border-blue-600 hover:border-blue-700 transition-colors text-white py-3 px-4 rounded-2xl shadow-lg flex gap-3 items-center justify-center"
+						className="flex justify-center items-center gap-3 bg-blue-500 hover:bg-blue-600 shadow-lg px-4 py-3 border-b-4 border-blue-600 hover:border-blue-700 rounded-2xl text-white transition-colors"
 						href={
-							"https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.3/blockyfish-client-linux-3.1.3.tar.xz"
+							"https://github.com/blockyfish-client/desktop-client/releases/download/v3.1.4/blockyfish-client-linux-3.1.4.tar.xz"
 						}
 					>
 						<svg
@@ -114,10 +114,10 @@ export default function Home() {
 					<p>Android support is coming soon!</p>
 				</div>
 
-				<p className="text-4xl text-transparent bg-gradient-to-r from-cyan-200 to-cyan-300 bg-clip-text font-medium mt-24">
+				<p className="bg-clip-text bg-gradient-to-r from-cyan-200 to-cyan-300 mt-24 font-medium text-4xl text-transparent">
 					Contributors
 				</p>
-				<div className="flex flex-wrap gap-4 w-fit justify-center">
+				<div className="flex flex-wrap justify-center gap-4 w-fit">
 					{[
 						{
 							title: "ItsPi3141",
@@ -140,12 +140,12 @@ export default function Home() {
 					].map((e, i) => (
 						<a
 							key={i}
-							className="flex flex-col gap-2 w-64 h-54 bg-gray-800 rounded-md p-4 justify-start items-center border border-[#fff1] hover:border-[#fff4] transition-colors"
+							className="flex flex-col justify-start items-center gap-2 border-[#fff1] hover:border-[#fff4] bg-gray-800 p-4 border rounded-md w-64 h-54 transition-colors"
 							href={e.link}
 							target="_blank"
 							draggable={false}
 						>
-							<p className="text-center text-xl font-medium text-cyan-200">
+							<p className="font-medium text-center text-cyan-200 text-xl">
 								{e.title}
 							</p>
 							<img
@@ -153,9 +153,9 @@ export default function Home() {
 								width={64}
 								height={64}
 								draggable={false}
-								className="rounded-full border border-gray-600 bg-[#0003]"
+								className="border-gray-600 bg-[#0003] border rounded-full"
 							/>
-							<p className="text-center mt-3">{e.text}</p>
+							<p className="mt-3 text-center">{e.text}</p>
 						</a>
 					))}
 				</div>
