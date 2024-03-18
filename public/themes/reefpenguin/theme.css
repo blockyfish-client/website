@@ -1,13 +1,8 @@
-body {
-	background-attachment: fixed;
-	background-position: bottom;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url(dpbg6.png) !important;
-}
 .home-page .home-bg {
 	background-image: url(dpbg6.png) !important;
-	filter: blur(10px) brightness(0.7) grayscale(0.2);
+	filter: blur(10px) brightness(0.6) grayscale(0.3);
+	scale: 1.1;
+	transform-origin: 50% calc(100% - 16vh vh);
 }
 .home-page.playing {
 	--tw-bg-opacity: 0.3 !important;
@@ -17,10 +12,12 @@ body {
 .slideInDown {
 	-webkit-animation-name: fadeIn !important;
 	animation-name: fadeIn !important;
+	animation-duration: 0.4s;
 }
 .slideOutUp {
 	-webkit-animation-name: fadeOut !important;
 	animation-name: fadeOut !important;
+	animation-duration: 0.4s;
 }
 .death-screen-container .bg {
 	background-image: url(deathbg.png) !important;
@@ -29,7 +26,24 @@ body {
 	backdrop-filter: blur(5px) sepia(0.4) saturate(0.7);
 }
 .loading-container {
+	background: #000 !important;
+}
+.loading-container > div::before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 	background-image: url(loadingbg.png) !important;
+	filter: blur(10px) brightness(0.6) grayscale(0.3) !important;
+	scale: 1.1;
+	transform-origin: 50% calc(100% - 16vh vh);
+}
+.loading-container .message {
+	z-index: 100;
+	display: block;
+	position: relative;
 }
 .loading-container .loading-bar .inner {
 	background-color: #000 !important;
@@ -43,16 +57,16 @@ body {
 	background-position: center !important;
 }
 .p-2 .container {
-	background-color: #0003 !important;
-	/* backdrop-filter: blur(10px) !important; */
+	background-color: #0004 !important;
+	backdrop-filter: blur(20px) !important;
 }
 .home-widget {
-	background-color: #0003 !important;
-	/* backdrop-filter: blur(10px) !important; */
+	background-color: #0004 !important;
+	backdrop-filter: blur(20px) !important;
 }
 .top-right-nav {
-	background-color: #0003 !important;
-	/* backdrop-filter: blur(10px) !important; */
+	background-color: #0004 !important;
+	backdrop-filter: blur(20px) !important;
 }
 .btn {
 	border-bottom-width: 0px !important;
@@ -139,12 +153,12 @@ body {
 	background-color: #0891b2 !important;
 }
 .vfm--overlay {
-	background-color: rgba(0, 0, 0, 0.2) !important;
-	backdrop-filter: blur(10px) !important;
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	backdrop-filter: blur(7px) !important;
 }
 .modal-content {
-	background-color: #1f293766 !important;
-	--tw-border-opacity: 0 !important;
+	background-color: #37415166 !important;
+	backdrop-filter: blur(20px);
 }
 .forum-page {
 	--tw-bg-opacity: 0.2 !important;
