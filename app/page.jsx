@@ -135,7 +135,13 @@ export default function Home() {
 							title: "nostopgmaming17",
 							link: "https://github.com/nostopgmaming17",
 							avatar: "https://avatars.githubusercontent.com/u/65682727",
-							text: "Creator of the new script injector",
+							text: "New script injector",
+						},
+						{
+							title: "mahdi13377",
+							link: "https://github.com/mahdi13377",
+							avatar: "https://avatars.githubusercontent.com/u/147645370",
+							text: "Ideas for new Blockyfish features",
 						},
 					].map((e, i) => (
 						<a
