@@ -1,6 +1,6 @@
 // https://gist.github.com/chibicode/fe195d792270910226c928b69a468206
 import React, { memo } from "react";
-import twemoji from "twemoji";
+import twemoji from "@discordapp/twemoji";
 import "./twemoji.css";
 
 const Twemoji = ({ text }) => (
