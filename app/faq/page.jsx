@@ -4,10 +4,10 @@ import { Navbar } from "../components/navbar";
 
 export default function Faq() {
 	return (
-		<main className="bg-gray-900 text-white min-h-screen w-screen flex flex-col items-center pb-8 px-4">
+		<main className="flex flex-col items-center bg-gray-900 px-4 pb-8 w-screen min-h-screen text-white">
 			<Navbar />
-			<div className="flex flex-col items-center max-w-5xl w-full mt-8 gap-4">
-				<p className="text-4xl text-transparent text-center bg-gradient-to-r from-pink-200 to-pink-300 bg-clip-text font-medium">
+			<div className="flex flex-col items-center gap-4 mt-8 w-full max-w-5xl">
+				<p className="bg-clip-text bg-gradient-to-r from-pink-200 to-pink-300 font-medium text-4xl text-center text-transparent">
 					Frequenty Asked Questions
 				</p>
 				{[
@@ -31,18 +31,19 @@ export default function Faq() {
 						q: "Why can't I open the installer on MacOS? (App can't be opened because it is from an unidentified developer.)",
 						a: `This is because of MacOS's Gatekeeper feature. It prevents unsigned applications from being installed by default. Signing the application would cost around $100USD per year.\nTo get around the Gatekeeper, hold the control key and click on the app. Then click "Open", then click "Open" again when it gives you a warning. Your preference will be saved and MacOS will let you open the app normally from now on.`,
 					},
-				].map((e, i) => {
+				].map((e) => {
 					const [open, setOpen] = useState(false);
 					return (
 						<div
-							key={i}
-							className="w-full bg-gray-800 rounded-md text-pink-200 overflow-hidden"
+							key={e.q}
+							className="bg-gray-800 rounded-md w-full text-pink-200 overflow-hidden"
 						>
 							<button
 								className="flex justify-between items-center p-4 w-full"
 								onClick={() => setOpen(!open)}
+								type="button"
 							>
-								<p className="text-xl w-full text-left font-medium">
+								<p className="w-full font-medium text-left text-xl">
 									{e.q}
 								</p>
 								<svg
@@ -51,20 +52,20 @@ export default function Faq() {
 									height="16"
 									fill="currentColor"
 									viewBox="0 0 16 16"
-									className={
-										(open ? "rotate-90" : "rotate-0") +
-										" transition-transform"
-									}
+									className={`${
+										open ? "rotate-90" : "rotate-0"
+									} transition-transform`}
 								>
+									<title>▶️</title>
 									<path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
 								</svg>
 							</button>
 
 							{open && (
-								<div className="w-full bg-[#def1] p-4">
-									<div className="w-full text-left space-y-4">
-										{e.a.split("\n").map((e, i) => (
-											<p key={i}>{e}</p>
+								<div className="bg-[#def1] p-4 w-full">
+									<div className="space-y-4 w-full text-left">
+										{e.a.split("\n").map((e) => (
+											<p key={e}>{e}</p>
 										))}
 									</div>
 								</div>

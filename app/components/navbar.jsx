@@ -3,12 +3,12 @@ import Link from "next/link";
 
 export function Navbar() {
 	return (
-		<div className="w-screen h-24 flex justify-center sticky top-0 select-none">
-			<div className="bg-[#35425569] backdrop-blur-md max-w-5xl w-full flex justify-between items-center m-4 p-4 rounded-xl">
+		<div className="top-0 sticky flex justify-center w-screen h-24 select-none">
+			<div className="flex justify-between items-center bg-[#35425569] backdrop-blur-md m-4 p-4 rounded-xl w-full max-w-5xl">
 				<div className="flex gap-1">
 					<Link
 						href={"/"}
-						className="hover:bg-[#fff1] transition-colors w-8 h-8 rounded-md"
+						className="hover:bg-[#fff1] rounded-md w-8 h-8 transition-colors"
 						draggable={false}
 					>
 						<Image
@@ -31,11 +31,11 @@ export function Navbar() {
 							href: "https://discord.gg/vQnrUVxAvT",
 							text: "Discord",
 						},
-					].map((e, i) => (
+					].map((e) => (
 						<Link
-							key={i}
+							key={e.href}
 							href={e.href}
-							className="hover:bg-[#fff1] transition-colors px-3 py-2 rounded-md"
+							className="hover:bg-[#fff1] px-3 py-2 rounded-md transition-colors"
 							draggable={false}
 							target={e.target || "_blank"}
 						>
