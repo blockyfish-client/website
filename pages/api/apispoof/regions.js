@@ -15,12 +15,12 @@ export default async function handler(req, res) {
 		// 	{ id: "OCE", latitude: -33.9256, longitude: 151.191, gamemodes: ["1"] }
 		// ]
 		[
-			// {
-			// 	id: "AS",
-			// 	latitude: 35.5826,
-			// 	longitude: 139.746,
-			// 	gamemodes: ["6"],
-			// },
+			{
+				id: "AS",
+				latitude: 35.5826,
+				longitude: 139.746,
+				gamemodes: ["6"],
+			},
 			{
 				id: "EU",
 				latitude: 52.35,
