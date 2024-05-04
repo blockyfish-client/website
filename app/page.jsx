@@ -115,6 +115,17 @@ export default function Home() {
 						Download for Linux (x64)
 					</Link>
 					<p>Android support is coming soon!</p>
+					<p>
+						Join the{" "}
+						<Link
+							href={"https://discord.gg/vQnrUVxAvT"}
+							target="_blank"
+							className="font-bold text-blue-300"
+						>
+							Discord server
+						</Link>{" "}
+						and stay up to date with the latest news.
+					</p>
 				</div>
 
 				<p className="bg-clip-text bg-gradient-to-r from-cyan-200 to-cyan-300 mt-24 font-medium text-4xl text-transparent">
