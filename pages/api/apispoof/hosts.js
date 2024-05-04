@@ -170,8 +170,8 @@ export default async function handler(req, res) {
 					ip: "216.128.147.87",
 				},
 				map: {
-					string_id: "pangolin_tffa_v1",
-					user: { id: 589683, username: "Pangolin", verified: false },
+					string_id: "star_rain_ffa",
+					user: { id: 389999, username: "emi_", verified: true },
 				},
 			},
 			{
@@ -203,8 +203,8 @@ export default async function handler(req, res) {
 					ip: "66.42.68.170",
 				},
 				map: {
-					string_id: "star_rain_ffa",
-					user: { id: 389999, username: "emi_", verified: true },
+					string_id: "pangolin_tffa_v1",
+					user: { id: 589683, username: "Pangolin", verified: false },
 				},
 			},
 		],
