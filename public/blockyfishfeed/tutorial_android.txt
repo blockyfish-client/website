@@ -1,0 +1,13 @@
+<b>Welcome to Blockyfish client for Deeeep.io!</b>
+<p>Scroll down for instructions on hacks</p>
+<br />
+
+<b>Goblin shark 210 dmg</b>
+<p>It is possible to glitch goblin shark's charged shot mechanism and fire bullets that deal 210 damage without having to charge for 2 seconds.</p>
+<p>Steps:</p>
+<ol>
+	<li>Charge boost to max. Make sure you reach the -50% speed.</li>
+	<li>Cancel the charge boost by right clicking.</li>
+	<li>Hold the control key and click once to fire a shot.</li>
+</ol>
+<p>Note that if you do a charged boost, it will cancel the glitch and you will have to do the steps above again.</p>

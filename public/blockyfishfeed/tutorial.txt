@@ -39,9 +39,7 @@
 <p>Steps:</p>
 <ol>
 	<li>Charge boost to max. Make sure you reach the -50% speed.</li>
-	<li>Keep holding down the mouse.</li>
-	<li>Hold down the control key.</li>
-	<li>Let go of the mouse.</li>
-	<li>Hold the control key and click once to fire another shot.</li>
+	<li>Cancel the charge boost by right clicking.</li>
+	<li>Hold the control key and click once to fire a shot.</li>
 </ol>
 <p>Note that if you do a charged boost, it will cancel the glitch and you will have to do the steps above again.</p>
