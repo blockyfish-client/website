@@ -117,7 +117,7 @@ export default function Home() {
 					<Link
 						className="flex justify-center items-center gap-3 border-emerald-700 hover:border-emerald-800 bg-emerald-600 hover:bg-emerald-700 shadow-lg mt-4 px-4 py-3 border-b-4 rounded-2xl text-white transition-colors"
 						href={
-							"https://github.com/blockyfish-client/android-client/releases/download/v1.0.0/app-release.apk"
+							"https://github.com/blockyfish-client/android-client/releases/download/v1.0.1/app-release.apk"
 						}
 					>
 						<svg
