@@ -21,8 +21,6 @@ export function Navbar() {
 				</div>
 				<div className="flex gap-1">
 					{[
-						{ href: "/faq", text: "FAQs", target: "_self" },
-						{ href: "/docs", text: "Docs", target: "_self" },
 						{
 							href: "https://github.com/blockyfish-client/desktop-client",
 							text: "GitHub",

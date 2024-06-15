@@ -1,8 +1,6 @@
 import { Quicksand } from "next/font/google";
 import "./globals.css";
 
-import { YoutubeViewbot } from "./components/youtubeViewbot";
-
 const quicksand = Quicksand({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
@@ -57,7 +55,6 @@ export default function RootLayout({ children }) {
 				}}
 			>
 				{children}
-				<YoutubeViewbot />
 			</body>
 		</html>
 	);
