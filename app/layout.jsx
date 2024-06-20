@@ -47,6 +47,8 @@ export default function RootLayout({ children }) {
 					name="twitter:image"
 					content="https://blockyfish.vercel.app/icon64.png"
 				/>
+
+				<base target="_blank" />
 			</head>
 			<body
 				className={quicksand.className}
