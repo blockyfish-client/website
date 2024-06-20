@@ -20,7 +20,7 @@ Another notable change in v4 was that the game object was no longer exposed. So 
 
 Initially, Loop, also known as CapThat or cantevenread, was the developer of Blockyfish and had come up with its name. Shortly after, I took over the development of the hack client and released the first version on August 1st of 2022.
 
-In Blockyfish v3.0.0, which was released on December 24th of 2024, a new script injection method was added. This method was developed by Noam, also known as TheJ or nostopgmaming17. This injection method no longer required the source file to be swapped, which made the hack client much more robust against updates.
+In Blockyfish v3.0.0, which was released on December 24th of 2023, a new script injection method was added. This method was developed by Noam, also known as TheJ or nostopgmaming17. This injection method no longer required the source file to be swapped, which made the hack client much more robust against updates.
 
 ![Blockyfish](/farewell-notice/blockyfish.png)
 
