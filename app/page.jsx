@@ -95,6 +95,12 @@ export default function Home() {
 							avatar: "https://avatars.githubusercontent.com/u/147645370",
 							text: "Ideas for new Blockyfish features",
 						},
+						{
+							title: "Blaststar",
+							link: "https://github.com/blaststar",
+							avatar: "https://avatars.githubusercontent.com/u/74274507",
+							text: "Moral support",
+						},
 					].map((e) => (
 						<a
 							key={e.title}
