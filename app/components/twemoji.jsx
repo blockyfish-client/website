@@ -8,27 +8,30 @@ const EmojiRegExp = new RegExp(
 );
 
 const Twemoji = ({ text }) => {
-	console.log(text);
-	return typeof text === "object" ? (
-		<p>
-			{text.map((t) => {
-				if (typeof t === "string") return t;
-				const TagName = t.type;
-				return <TagName {...t.props} key={t.key} />;
-			})}
-		</p>
-	) : (
-		<p
-			dangerouslySetInnerHTML={{
-				__html: EmojiRegExp.test(text)
-					? twemoji.parse(text, {
-							folder: "svg",
-							ext: ".svg",
-					  })
-					: text,
-			}}
-		/>
-	);
+	try {
+		return typeof text === "object" ? (
+			<p>
+				{text.map((t) => {
+					if (typeof t === "string") return t;
+					const TagName = t.type;
+					return <TagName {...t.props} key={t.key} />;
+				})}
+			</p>
+		) : EmojiRegExp.test(text) ? (
+			<p
+				dangerouslySetInnerHTML={{
+					__html: twemoji.parse(text, {
+						folder: "svg",
+						ext: ".svg",
+					}),
+				}}
+			/>
+		) : (
+			<p>{text}</p>
+		);
+	} catch {
+		return <p>{text}</p>;
+	}
 };
 
 export default memo(Twemoji);
