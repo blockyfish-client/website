@@ -22,6 +22,8 @@ Initially, Loop, also known as CapThat or cantevenread, was the developer of Blo
 
 In Blockyfish v3.0.0, which was released on December 24th of 2024, a new script injection method was added. This method was developed by Noam, also known as TheJ or nostopgmaming17. This injection method no longer required the source file to be swapped, which made the hack client much more robust against updates.
 
+![Blockyfish](/farewell-notice/blockyfish.png)
+
 # fsploit
 
 With Noam's new injection method, the Electron app was no longer necessary. Instead, a simple Chrome extension would be able to achieve the same functionality. This meant that instead of having users download a standalone Chromium browser (that is essentially what an Electron app is), they could just install a Chrome extension or a Tampermonkey script. This, along with other factors, have led me to decide to discontinue Blockyfish.
