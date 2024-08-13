@@ -1,9 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export function Navbar() {
 	return (
-		<div className="top-16 sticky flex justify-center w-screen h-24 select-none">
+		<div className="top-0 sticky flex justify-center w-screen h-24 select-none">
 			<div className="flex justify-between items-center bg-[#35425569] backdrop-blur-md m-4 p-4 rounded-xl w-full max-w-5xl">
 				<div className="flex gap-1">
 					<Link
@@ -11,8 +10,9 @@ export function Navbar() {
 						className="hover:bg-[#fff1] rounded-md w-8 h-8 transition-colors"
 						draggable={false}
 					>
-						<Image
-							src={"/icon.png"}
+						<img
+							alt="logo"
+							src={"/logo.svg"}
 							width={32}
 							height={32}
 							draggable={false}
@@ -22,8 +22,8 @@ export function Navbar() {
 				<div className="flex gap-1">
 					{[
 						{
-							href: "https://github.com/blockyfish-client/",
-							text: "GitHub",
+							href: "https://discord.gg/aQ63nRSZzG",
+							text: "Discord",
 						},
 					].map((e) => (
 						<Link

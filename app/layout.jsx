@@ -13,10 +13,7 @@ export default function RootLayout({ children }) {
 					content="Deeeep.io's best client mod for hacks, cheats, and other neat quality-of-life features"
 				/>
 
-				<meta
-					property="og:url"
-					content="https://blockyfish.vercel.app/"
-				/>
+				<meta property="og:url" content="https://blockyfish.vercel.app/" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Blockyfish Client" />
 				<meta
@@ -30,14 +27,8 @@ export default function RootLayout({ children }) {
 				/>
 
 				<meta name="twitter:card" content="summary_large_image" />
-				<meta
-					property="twitter:domain"
-					content="blockyfish.vercel.app"
-				/>
-				<meta
-					property="twitter:url"
-					content="https://blockyfish.vercel.app/"
-				/>
+				<meta property="twitter:domain" content="blockyfish.vercel.app" />
+				<meta property="twitter:url" content="https://blockyfish.vercel.app/" />
 				<meta name="twitter:title" content="Blockyfish Client" />
 				<meta
 					name="twitter:description"
