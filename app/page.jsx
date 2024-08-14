@@ -3,10 +3,10 @@ import Twemoji from "./components/twemoji";
 import Link from "next/link";
 
 const DOWNLOADS = {
-	EXE: "",
-	DMG: "",
-	DEB: "",
-	RPM: "",
+	EXE: "https://github.com/blockyfish-client/releases/releases/download/4.0.0/blockyfish-4.0.0-windows-x64.exe",
+	DMG: "https://github.com/blockyfish-client/releases/releases/download/4.0.0/blockyfish-4.0.0-macos.dmg",
+	DEB: "https://github.com/blockyfish-client/releases/releases/download/4.0.0/blockyfish-4.0.0-linux-amd64.deb",
+	RPM: "https://github.com/blockyfish-client/releases/releases/download/4.0.0/blockyfish-4.0.0-linux.x86_64.rpm",
 };
 
 export default function Home() {
