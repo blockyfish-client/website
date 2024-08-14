@@ -2,7 +2,7 @@ import { Navbar } from "./components/navbar";
 import Twemoji from "./components/twemoji";
 import Link from "next/link";
 
-const VERSION = "4.0.1";
+const VERSION = "4.0.2";
 const DOWNLOADS = {
 	EXE: `https://github.com/blockyfish-client/releases/releases/download/${VERSION}/blockyfish-${VERSION}-windows-x64.exe`,
 	DMG: `https://github.com/blockyfish-client/releases/releases/download/${VERSION}/blockyfish-${VERSION}-macos-universal.dmg`,
