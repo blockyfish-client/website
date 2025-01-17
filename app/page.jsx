@@ -2,7 +2,7 @@ import { Navbar } from "./components/navbar";
 import Twemoji from "./components/twemoji";
 import Link from "next/link";
 
-const VERSION = "4.2.1";
+const VERSION = "4.2.2";
 const DOWNLOADS = {
 	EXE: `https://github.com/blockyfish-client/releases/releases/download/${VERSION}/blockyfish-${VERSION}-windows-x64.exe`,
 	DMG_X64: `https://github.com/blockyfish-client/releases/releases/download/${VERSION}/blockyfish-${VERSION}-macos-x64.dmg`,
@@ -15,7 +15,7 @@ export default function Home() {
 	return (
 		<main className="flex flex-col items-center bg-gray-900 px-4 pb-8 w-screen min-h-screen text-white">
 			<div className="relative flex flex-col justify-center items-center w-full select-none cover-height">
-				<h1 className="text-7xl [line-height:1.25] z-10 bg-clip-text bg-gradient-to-tr from-teal-400 to-blue-300 font-extrabold text-transparent">
+				<h1 className="z-10 bg-clip-text bg-gradient-to-tr from-teal-400 to-blue-300 font-extrabold text-7xl text-transparent [line-height:1.25]">
 					Blockyfish
 				</h1>
 				<h2 className="z-10 mb-4 text-center">Deeeep.io's best client mod</h2>
