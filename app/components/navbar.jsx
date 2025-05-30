@@ -22,7 +22,7 @@ export function Navbar() {
 				<div className="flex gap-1">
 					{[
 						{
-							href: "https://discord.gg/aQ63nRSZzG",
+							href: "https://discord.gg/Kg6pvzVQHA",
 							text: "Discord",
 						},
 					].map((e) => (
