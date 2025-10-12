@@ -160,7 +160,7 @@ export default function Home() {
 					<div>
 						Join the{" "}
 						<Link
-							href={"https://discord.gg/aQ63nRSZzG"}
+							href={"https://discord.gg/Kg6pvzVQHA"}
 							target="_blank"
 							className="font-bold text-blue-300"
 						>
