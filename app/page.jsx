@@ -176,15 +176,21 @@ export default function Home() {
 				<div className="flex flex-wrap justify-center gap-4 w-fit">
 					{[
 						{
-							title: "ItsPi3141",
-							link: "https://github.com/ItsPi3141/",
+							title: "Pi",
+							link: "https://github.com/ItsPi3141",
 							avatar: "https://avatars.githubusercontent.com/u/90981829",
-							text: "Developer",
+							text: "Lead developer",
 						},
 						{
-							title: "nostopgmaming17",
+							title: "Noam",
 							link: "https://github.com/nostopgmaming17",
 							avatar: "https://avatars.githubusercontent.com/u/65682727",
+							text: "Developer",
+            },
+            {
+							title: "Moray",
+							link: "https://github.com/moray-man",
+							avatar: "https://avatars.githubusercontent.com/u/221781381",
 							text: "Developer",
 						},
 						{
@@ -192,6 +198,12 @@ export default function Home() {
 							link: "https://github.com/blaststar",
 							avatar: "https://avatars.githubusercontent.com/u/74274507",
 							text: "Developer",
+            },
+            {
+							title: "CapThat",
+							link: "https://github.com/cantevenread",
+							avatar: "https://avatars.githubusercontent.com/u/78627491",
+							text: "Former developer",
 						},
 					].map((e) => (
 						<a
