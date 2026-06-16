@@ -2,21 +2,11 @@ import Link from "next/link";
 
 export function Navbar() {
 	return (
-		<div className="top-0 sticky flex justify-center w-screen h-24 select-none">
-			<div className="flex justify-between items-center bg-[#35425569] backdrop-blur-md m-4 p-4 rounded-xl w-full max-w-5xl">
+		<div className="sticky top-0 flex h-24 w-screen justify-center select-none">
+			<div className="m-4 flex w-full max-w-5xl items-center justify-between rounded-xl bg-[#35425569] p-4 backdrop-blur-md">
 				<div className="flex gap-1">
-					<Link
-						href={"/"}
-						className="hover:bg-[#fff1] rounded-md w-8 h-8 transition-colors"
-						draggable={false}
-					>
-						<img
-							alt="logo"
-							src={"/logo.svg"}
-							width={32}
-							height={32}
-							draggable={false}
-						/>
+					<Link href={"/"} className="h-8 w-8 rounded-md transition-colors hover:bg-[#fff1]" draggable={false}>
+						<img alt="logo" src={"/logo.svg"} width={32} height={32} draggable={false} />
 					</Link>
 				</div>
 				<div className="flex gap-1">
@@ -29,7 +19,7 @@ export function Navbar() {
 						<Link
 							key={e.href}
 							href={e.href}
-							className="hover:bg-[#fff1] px-3 py-2 rounded-md transition-colors"
+							className="rounded-md px-3 py-2 transition-colors hover:bg-[#fff1]"
 							draggable={false}
 							target={e.target || "_blank"}
 						>

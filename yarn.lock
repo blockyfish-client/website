@@ -622,10 +622,14 @@ __metadata:
     autoprefixer: "npm:^10.5.0"
     next: "npm:16.2.9"
     postcss: "npm:^8.5.15"
+    prettier: "npm:^3.8.4"
+    prettier-plugin-sort-imports: "npm:^1.8.11"
+    prettier-plugin-tailwindcss: "npm:^0.8.0"
     react: "npm:19.2.7"
     react-dom: "npm:19.2.7"
     retypeapp: "npm:4.6.0"
     tailwindcss: "npm:4.3.1"
+    typescript: "npm:^6.0.3"
   languageName: unknown
   linkType: soft
 
@@ -989,6 +993,84 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier-plugin-sort-imports@npm:^1.8.11":
+  version: 1.8.11
+  resolution: "prettier-plugin-sort-imports@npm:1.8.11"
+  dependencies:
+    prettier: "npm:^3.1.1"
+  peerDependencies:
+    typescript: ">4.0.0"
+  checksum: 10c0/1b66db94232ce317e4d800729caba9bbca6a93033a76dff28ac5956e1d31ae4fa60d1d19bfb5400ed4f5d3d10b5807bfb6c5698d8d17d7954999ff5807500408
+  languageName: node
+  linkType: hard
+
+"prettier-plugin-tailwindcss@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "prettier-plugin-tailwindcss@npm:0.8.0"
+  peerDependencies:
+    "@ianvs/prettier-plugin-sort-imports": "*"
+    "@prettier/plugin-hermes": "*"
+    "@prettier/plugin-oxc": "*"
+    "@prettier/plugin-pug": "*"
+    "@shopify/prettier-plugin-liquid": "*"
+    "@trivago/prettier-plugin-sort-imports": "*"
+    "@zackad/prettier-plugin-twig": "*"
+    prettier: ^3.0
+    prettier-plugin-astro: "*"
+    prettier-plugin-css-order: "*"
+    prettier-plugin-jsdoc: "*"
+    prettier-plugin-marko: "*"
+    prettier-plugin-multiline-arrays: "*"
+    prettier-plugin-organize-attributes: "*"
+    prettier-plugin-organize-imports: "*"
+    prettier-plugin-sort-imports: "*"
+    prettier-plugin-svelte: "*"
+  peerDependenciesMeta:
+    "@ianvs/prettier-plugin-sort-imports":
+      optional: true
+    "@prettier/plugin-hermes":
+      optional: true
+    "@prettier/plugin-oxc":
+      optional: true
+    "@prettier/plugin-pug":
+      optional: true
+    "@shopify/prettier-plugin-liquid":
+      optional: true
+    "@trivago/prettier-plugin-sort-imports":
+      optional: true
+    "@zackad/prettier-plugin-twig":
+      optional: true
+    prettier-plugin-astro:
+      optional: true
+    prettier-plugin-css-order:
+      optional: true
+    prettier-plugin-jsdoc:
+      optional: true
+    prettier-plugin-marko:
+      optional: true
+    prettier-plugin-multiline-arrays:
+      optional: true
+    prettier-plugin-organize-attributes:
+      optional: true
+    prettier-plugin-organize-imports:
+      optional: true
+    prettier-plugin-sort-imports:
+      optional: true
+    prettier-plugin-svelte:
+      optional: true
+  checksum: 10c0/03315d1d5d4c425e3f090bd49fcc59159035839931ee8dcaa771720159f8209dd663aa78abc77473b68a425b4ad0b3dd02d79df149edf36a557ef9d43624c098
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^3.1.1, prettier@npm:^3.8.4":
+  version: 3.8.4
+  resolution: "prettier@npm:3.8.4"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 10c0/b90a0cbe75b88ac0af9c13fe0f359bd19926fabccd88483227b21f71f0c1cc42da056fc1ac3a361e665577c568371d5ccfb2c62c31c8a1186f8d1bd531a063e9
+  languageName: node
+  linkType: hard
+
 "react-dom@npm:19.2.7":
   version: 19.2.7
   resolution: "react-dom@npm:19.2.7"
@@ -1231,6 +1313,26 @@ __metadata:
   version: 2.8.1
   resolution: "tslib@npm:2.8.1"
   checksum: 10c0/9c4759110a19c53f992d9aae23aac5ced636e99887b51b9e61def52611732872ff7668757d4e4c61f19691e36f4da981cd9485e869b4a7408d689f6bf1f14e62
+  languageName: node
+  linkType: hard
+
+"typescript@npm:^6.0.3":
+  version: 6.0.3
+  resolution: "typescript@npm:6.0.3"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/4a25ff5045b984370f48f196b3a0120779b1b343d40b9a68d114ea5e5fff099809b2bb777576991a63a5cd59cf7bffd96ff6fe10afcefbcb8bd6fb96ad4b6606
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A^6.0.3#optional!builtin<compat/typescript>":
+  version: 6.0.3
+  resolution: "typescript@patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>::version=6.0.3&hash=5786d5"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/2f25c74e65663c248fa1ade2b8459d9ce5372ff9dad07067310f132966ebec1d93f6c42f0baf77a6b6a7a91460463f708e6887013aaade22111037457c6b25df
   languageName: node
   linkType: hard
 
