@@ -9,16 +9,17 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"@discordapp/twemoji": "^15.0.3",
-		"next": "14.0.4",
-		"react": "^18.3.1",
-		"react-dom": "^18.3.1"
+		"@discordapp/twemoji": "16.0.1",
+		"next": "16.2.9",
+		"react": "19.2.7",
+		"react-dom": "19.2.7"
 	},
 	"devDependencies": {
-		"autoprefixer": "^10.4.20",
-		"postcss": "^8.4.41",
-		"retypeapp": "^3.5.0",
-		"tailwindcss": "^3.4.10"
+		"@tailwindcss/postcss": "^4.3.1",
+		"autoprefixer": "^10.5.0",
+		"postcss": "^8.5.15",
+		"retypeapp": "4.6.0",
+		"tailwindcss": "4.3.1"
 	},
 	"packageManager": "yarn@4.17.0+sha512.c2957de2f9025ab14d63b24d0d8be1f1655810e22c341042c27f7ecd017b180ec12db73d69ac366d71b304ef9f069349ce462de96f04f8f1da317f4f762c95ae"
 }

@@ -196,7 +196,7 @@ export default function Home() {
 					].map((e) => (
 						<a
 							key={e.title}
-							className="flex flex-col justify-start items-center gap-2 border-[#fff1] hover:border-[#fff4] bg-gray-800 p-4 border rounded-md w-64 h-54 transition-colors"
+							className="flex flex-col justify-start items-center gap-2 border-[#fff1] hover:border-[#fff4] bg-gray-800 p-4 border rounded-md w-64 h-[13.5rem] transition-colors"
 							href={e.link}
 							rel="noopener noreferrer"
 							draggable={false}
