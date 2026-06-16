@@ -8,7 +8,7 @@ const DOWNLOADS = {
 	DMG_X64: `https://github.com/blockyfish-client/releases/releases/download/${VERSION}/blockyfish-${VERSION}-macos-x64.dmg`,
 	DMG_ARM64: `https://github.com/blockyfish-client/releases/releases/download/${VERSION}/blockyfish-${VERSION}-macos-arm64.dmg`,
 	DEB: `https://github.com/blockyfish-client/releases/releases/download/${VERSION}/blockyfish-${VERSION}-linux-amd64.deb`,
-	RPM: `https://github.com/blockyfish-client/releases/releases/download/${VERSION}/blockyfish-${VERSION}-linux.x86_64.rpm`,
+	RPM: `https://github.com/blockyfish-client/releases/releases/download/${VERSION}/blockyfish-${VERSION}-linux-x86_64.rpm`,
 };
 
 export default function Home() {
