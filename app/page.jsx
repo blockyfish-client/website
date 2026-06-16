@@ -15,9 +15,7 @@ export default function Home() {
 	return (
 		<main className="flex min-h-screen w-screen flex-col items-center bg-gray-900 px-4 pb-8 text-white">
 			<div className="cover-height relative flex w-full flex-col items-center justify-center select-none">
-				<h1 className="z-10 bg-linear-to-tr from-teal-400 to-blue-300 bg-clip-text text-7xl leading-tight font-extrabold text-transparent">
-					Blockyfish
-				</h1>
+				<h1 className="z-10 bg-linear-to-tr from-teal-400 to-blue-300 bg-clip-text text-7xl leading-tight font-extrabold text-transparent">Blockyfish</h1>
 				<h2 className="z-10 mb-4 text-center">Deeeep.io's best client mod</h2>
 				<Link
 					className="z-50 flex items-center justify-center gap-3 rounded-2xl border-b-4 border-blue-600 bg-blue-500 px-4 py-3 text-white shadow-lg transition-colors hover:border-blue-700 hover:bg-blue-600"
@@ -150,17 +148,18 @@ export default function Home() {
 							text: "Developer",
 						},
 						{
-							title: "Moray",
-							link: "https://github.com/moray-man",
-							avatar: "https://avatars.githubusercontent.com/u/221781381",
-							text: "Developer",
-						},
-						{
 							title: "Blaststar",
 							link: "https://github.com/blaststar",
 							avatar: "https://avatars.githubusercontent.com/u/74274507",
 							text: "Developer",
 						},
+						{
+							title: "Moray",
+							link: "https://github.com/moray-man",
+							avatar: "https://avatars.githubusercontent.com/u/221781381",
+							text: "Plugin developer",
+						},
+
 						{
 							title: "CapThat",
 							link: "https://github.com/cantevenread",
@@ -170,21 +169,16 @@ export default function Home() {
 					].map((e) => (
 						<a
 							key={e.title}
-							className="flex h-54 w-64 flex-col items-center justify-start gap-2 rounded-md border border-[#fff1] bg-gray-800 p-4 transition-colors hover:border-[#fff4]"
+							className="flex h-24 w-64 items-center justify-start gap-4 rounded-md border border-white/10 bg-gray-800 p-4 transition-colors hover:border-white/20"
 							href={e.link}
 							rel="noopener noreferrer"
 							draggable={false}
 						>
-							<p className="text-center text-xl font-medium text-cyan-200">{e.title}</p>
-							<img
-								src={e.avatar}
-								width={64}
-								height={64}
-								draggable={false}
-								className="rounded-full border border-gray-600 bg-[#0003]"
-								alt={`${e.title}'s avatar`}
-							/>
-							<p className="mt-3 text-center">{e.text}</p>
+							<img src={e.avatar} width={64} height={64} draggable={false} className="rounded-full bg-black/25" alt={`${e.title}'s avatar`} />
+							<div className="flex flex-col">
+								<p className="text-xl font-medium text-cyan-200">{e.title}</p>
+								<p>{e.text}</p>
+							</div>
 						</a>
 					))}
 				</div>
