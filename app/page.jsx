@@ -15,7 +15,7 @@ export default function Home() {
 	return (
 		<main className="flex min-h-screen w-screen flex-col items-center bg-gray-900 px-4 pb-8 text-white">
 			<div className="cover-height relative flex w-full flex-col items-center justify-center select-none">
-				<h1 className="z-10 bg-gradient-to-tr from-teal-400 to-blue-300 bg-clip-text text-7xl [line-height:1.25] font-extrabold text-transparent">
+				<h1 className="z-10 bg-linear-to-tr from-teal-400 to-blue-300 bg-clip-text text-7xl leading-tight font-extrabold text-transparent">
 					Blockyfish
 				</h1>
 				<h2 className="z-10 mb-4 text-center">Deeeep.io's best client mod</h2>
@@ -34,7 +34,7 @@ export default function Home() {
 			<Navbar />
 
 			<div className="mt-8 flex w-full max-w-5xl flex-col items-center gap-4">
-				<p className="bg-gradient-to-r from-emerald-200 to-emerald-300 bg-clip-text text-4xl font-medium text-transparent">Features</p>
+				<p className="bg-linear-to-r from-emerald-200 to-emerald-300 bg-clip-text text-4xl font-medium text-transparent">Features</p>
 				<div className="mb-24 flex w-fit flex-wrap justify-center gap-4">
 					{[
 						{
@@ -64,7 +64,7 @@ export default function Home() {
 				</div>
 
 				<div id="download" className="flex flex-col items-center gap-4">
-					<p id="download" className="bg-gradient-to-r from-orange-200 to-orange-300 bg-clip-text text-4xl font-medium text-transparent">
+					<p id="download" className="bg-linear-to-r from-orange-200 to-orange-300 bg-clip-text text-4xl font-medium text-transparent">
 						Download
 					</p>
 					<p>Latest version: v{VERSION}</p>
@@ -87,14 +87,14 @@ export default function Home() {
 							</svg>
 							MacOS
 						</div>
-						<div className="h-[52px] w-px bg-gray-700" />
+						<div className="h-13 w-px bg-gray-700" />
 						<Link
 							className="flex items-center justify-center gap-3 border-b-4 border-gray-700 bg-gray-600 px-4 py-3 text-white transition-colors hover:border-gray-800 hover:bg-gray-700"
 							href={DOWNLOADS.DMG_ARM64}
 						>
 							arm64
 						</Link>
-						<div className="h-[52px] w-px bg-gray-700" />
+						<div className="h-13 w-px bg-gray-700" />
 						<Link
 							className="flex items-center justify-center gap-3 rounded-e-2xl border-b-4 border-gray-700 bg-gray-600 px-4 py-3 text-white transition-colors hover:border-gray-800 hover:bg-gray-700"
 							href={DOWNLOADS.DMG_X64}
@@ -110,14 +110,14 @@ export default function Home() {
 							</svg>
 							Linux x64
 						</div>
-						<div className="h-[52px] w-px bg-orange-700" />
+						<div className="h-13 w-px bg-orange-700" />
 						<Link
 							className="flex items-center justify-center gap-3 border-b-4 border-orange-700 bg-orange-600 px-4 py-3 text-white transition-colors hover:border-orange-800 hover:bg-orange-700"
 							href={DOWNLOADS.DEB}
 						>
 							deb
 						</Link>
-						<div className="h-[52px] w-px bg-orange-700" />
+						<div className="h-13 w-px bg-orange-700" />
 						<Link
 							className="flex items-center justify-center gap-3 rounded-e-2xl border-b-4 border-orange-700 bg-orange-600 px-4 py-3 text-white transition-colors hover:border-orange-800 hover:bg-orange-700"
 							href={DOWNLOADS.RPM}
@@ -134,7 +134,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<p className="mt-16 bg-gradient-to-r from-cyan-200 to-cyan-300 bg-clip-text text-4xl font-medium text-transparent">Contributors</p>
+				<p className="mt-16 bg-linear-to-r from-cyan-200 to-cyan-300 bg-clip-text text-4xl font-medium text-transparent">Contributors</p>
 				<div className="flex w-fit flex-wrap justify-center gap-4">
 					{[
 						{
@@ -170,7 +170,7 @@ export default function Home() {
 					].map((e) => (
 						<a
 							key={e.title}
-							className="flex h-[13.5rem] w-64 flex-col items-center justify-start gap-2 rounded-md border border-[#fff1] bg-gray-800 p-4 transition-colors hover:border-[#fff4]"
+							className="flex h-54 w-64 flex-col items-center justify-start gap-2 rounded-md border border-[#fff1] bg-gray-800 p-4 transition-colors hover:border-[#fff4]"
 							href={e.link}
 							rel="noopener noreferrer"
 							draggable={false}
