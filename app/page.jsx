@@ -143,7 +143,7 @@ export default function Home() {
 						},
 						{
 							title: "Noam",
-							link: "https://github.com/nostopgmaming17",
+							link: "https://github.com/noam00000",
 							avatar: "https://avatars.githubusercontent.com/u/65682727",
 							text: "Developer",
 						},
@@ -159,7 +159,6 @@ export default function Home() {
 							avatar: "https://avatars.githubusercontent.com/u/221781381",
 							text: "Plugin developer",
 						},
-
 						{
 							title: "CapThat",
 							link: "https://github.com/cantevenread",
